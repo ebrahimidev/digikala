@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import "../../public/css/fontiran.css";
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -32,3 +34,4 @@ body {
   width: 100%;
   max-width: 1676px;
 }
+

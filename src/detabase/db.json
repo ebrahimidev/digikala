@@ -4,6 +4,33 @@
             "id":"1",
             "banner-header":"https://dkstatics-public.digikala.com/digikala-adservice-banners/906c1b7650a22cbebbc4936d9e8a771879afe480_1748767403.jpg?x-oss-process=image/quality,q_95/format,webp" 
         }
-
+    ],
+    "Category":[
+        {
+            "id":"1","title":"موبایل","svg":"svg"
+        },
+        {
+            "id":"2","title":"لپ تاپ","svg":"svg"
+        },
+        {
+            "id":"3","title":"کالای دیجیتال","svg":"svg"
+        },
+        {
+            "id":"4","title":"خانه و آشپزخانه","svg":"svg"
+        },
+        {
+            "id":"5","title":"لوازم خانگی برقی","svg":"svg"
+        }
+    ],
+    "ListCategory":[
+        {"id":"1" , "title":"خرید‌ طلای دیجیتال" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png" },
+        {"id":"2" , "title":"خرید خودرو" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/a469bd11155ddaa9fb60a2f560ea8546312c3224_1740999767.png" },
+        {"id":"3" , "title":"فروش‌ویژه طلای‌فیزیکی" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/af555782fd731859e3cf6f5dd0267d609f4ea3d5_1746610190.jpg" },
+        {"id":"4" , "title":"آیفون برنده شو" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/186b97f78a910cbd9cd7be24a63eeefeb377f073_1749556720.png" },
+        {"id":"5" , "title":"جهیزیه" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/a1899d0f3fb12081b4e157dec83199ab54eb5d74_1748849018.png" },
+        {"id":"6" , "title":"روز جهانی صنایع دستی" , "img":"http://dkstatics-public.digikala.com/digikala-bellatrix/1edd979da4b21bee62d66612b88bc8fb5de62da0_1749383436.png" },
+        {"id":"7" , "title":"تخفیف موبایل کارکرده" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/cc90a533986d6672b68f1f38c8683ef94d74c497_1727699529.png" },
+        {"id":"8" , "title":"1=3" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/c13bd207cfaf3009e063e010dc4234eef96b1d13_1632518044.png" },
+        {"id":"9" , "title":"حراج میان فصل" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/e547fdd3fa07eabc63be4e3989f07fbe24995aa0_1749290661.jpg" }
     ]
 }

@@ -6,7 +6,7 @@ import { TbLogin } from "react-icons/tb";
 
 function TopNav() {
   return (
-    <div className="container-4xl w-full relative">
+    <div className="container-4xl w-full bg-white relative z-50">
       <div className="grid grid-cols-12 w-full gap-5 px-5 py-4">
         <div className="col-span-9 flex flex-row items-center space-x-5 relative">
           <div className="flex w-[195px] h-[30px]">
@@ -33,9 +33,9 @@ function TopNav() {
             {/* </div> */}
           </div>
         </div>
-        <div className="col-span-3 flex flex-row items-center justify-end space-x-5 relative">
+        <div className="col-span-3 flex flex-row items-center justify-end space-x-4 relative">
           <FiBell size={"24px"} />
-          <hr className="w-[2px] h-7 bg-[rgba(0,0,0,0.08)] rounded-md border-none" />
+
           <Link href={"/"} className="">
             <button className="border border-solid border-[rgba(0,0,0,0.08)] bg-none rounded-md px-4 py-2 space-x-2 flex items-center justify-center flex-row cursor-pointer ">
               <span className="text-[#424750]">
@@ -52,8 +52,10 @@ function TopNav() {
               </span>
             </button>
           </Link>
-
-          <FiShoppingCart size={"24px"} />
+          <span>
+            <hr className="w-[2px] h-7 bg-[rgba(0,0,0,0.08)] rounded-md border-none box-border " />
+          </span>
+          <FiShoppingCart size={"24px"} color="#424750" />
         </div>
       </div>
     </div>

@@ -1,5 +1,9 @@
+import Main from "@/components/page/Main";
+
 export default function Home() {
   return (
-    <div className="">Home</div>
+    <div>
+      <Main />
+    </div>
   );
 }
