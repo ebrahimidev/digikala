@@ -20,6 +20,19 @@ export interface IListCategory {
   title: string;
   img: string;
 }
+interface BannerOne {
+  id: string;
+  img: string;
+}
+interface Blogs {
+  id:string,
+  title:string,
+  img:string,
+  author:string,
+  date:string,
+  body:string,
+  tags:string
+}
 
 interface DigikalaContextType {
   getBannerHeader: BannerHeader | null;
@@ -27,6 +40,8 @@ interface DigikalaContextType {
   setIsOpenCategoryNav: React.Dispatch<React.SetStateAction<boolean>>;
   getMenuCategory: DataCategory[];
   getListCategory: IListCategory[];
+  getBannerOne: BannerOne[];
+  getBlogs: Blogs[];
 }
 
 export const DigikalaContext = createContext<DigikalaContextType>({
@@ -35,6 +50,8 @@ export const DigikalaContext = createContext<DigikalaContextType>({
   setIsOpenCategoryNav: () => {},
   getMenuCategory: [],
   getListCategory: [],
+  getBannerOne: [],
+  getBlogs:[],
 });
 
 export function DigikalaContextProvider({ children }: Props) {
@@ -44,6 +61,8 @@ export function DigikalaContextProvider({ children }: Props) {
   const [getIsOpenCategoryNav, setIsOpenCategoryNav] = useState(false);
   const [getMenuCategory, setMenuCategory] = useState<DataCategory[]>([]);
   const [getListCategory, setListCategory] = useState<IListCategory[]>([]);
+  const [getBannerOne, setBannerOne] = useState<BannerOne[]>([]);
+  const [getBlogs , setBlogs] = useState<Blogs[]>([]);
   useEffect(() => {
     async function fetchMenuCategory() {
       const resCategory = await fetch("http://localhost:3001/Category");
@@ -82,6 +101,22 @@ export function DigikalaContextProvider({ children }: Props) {
     }
     fetchListCategory();
   }, []);
+  useEffect(() => {
+    async function fetchBannerOne() {
+      const resBannerOne = await fetch("http://localhost:3001/BannerOne");
+      const dataBannerOne = await resBannerOne.json();
+      setBannerOne(dataBannerOne);
+    }
+    fetchBannerOne();
+  }, []);
+  useEffect(()=>{
+    async function fetchBlogs() {
+      const resBlogs = await fetch("http://localhost:3001/blogs");
+      const dataBlogs = await resBlogs.json();
+      setBlogs(dataBlogs)
+    }
+    fetchBlogs();
+  },[])
   return (
     <DigikalaContext.Provider
       value={{
@@ -90,6 +125,8 @@ export function DigikalaContextProvider({ children }: Props) {
         setIsOpenCategoryNav,
         getMenuCategory,
         getListCategory,
+        getBannerOne,
+        getBlogs,
       }}
     >
       <Header />
