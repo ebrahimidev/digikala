@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { IoIosArrowBack } from "react-icons/io";
@@ -8,30 +7,10 @@ import CountdownTimer from "../ui/CountdownTimer";
 // Import Swiper styles
 import "swiper/css";
 import Link from "next/link";
-
-interface ProductDiscount {
-  id: string;
-  title: string;
-  img: string;
-  body: string;
-  discount: string;
-  price: string;
-}
+import { useDigikalaContext } from "../hook/useDigikalaContext";
 
 function DiscountProduct() {
-  const [getProductDiscount, setProductDiscount] = useState<ProductDiscount[]>(
-    []
-  );
-
-  useEffect(() => {
-    async function fetchProductDiscount() {
-      const res = await fetch("http://localhost:3001/DiscountProduct");
-      const data = await res.json();
-      setProductDiscount(data);
-    }
-    fetchProductDiscount();
-  }, []);
-
+  const {getProductDiscount} = useDigikalaContext();
   return (
     <div className="px-2 w-full max-w-[1676px]">
       <div className="bg-gradient-to-tr from-[#d22c4e] via-[#ee384e] to-[#ef5662] w-full rounded-2xl flex items-center px-2 py-4 overflow-hidden">

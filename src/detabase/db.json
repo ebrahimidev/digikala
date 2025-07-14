@@ -1,59 +1,226 @@
 {
-    "banners":[
-        {   
-            "id":"1",
-            "banner-header":"https://dkstatics-public.digikala.com/digikala-adservice-banners/906c1b7650a22cbebbc4936d9e8a771879afe480_1748767403.jpg?x-oss-process=image/quality,q_95/format,webp" 
-        }
-    ],
-    "Category":[
-        {
-            "id":"1","title":"موبایل","svg":"svg"
-        },
-        {
-            "id":"2","title":"لپ تاپ","svg":"svg"
-        },
-        {
-            "id":"3","title":"کالای دیجیتال","svg":"svg"
-        },
-        {
-            "id":"4","title":"خانه و آشپزخانه","svg":"svg"
-        },
-        {
-            "id":"5","title":"لوازم خانگی برقی","svg":"svg"
-        }
-    ],
-    "ListCategory":[
-        {"id":"1" , "title":"خرید‌ طلای دیجیتال" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png" },
-        {"id":"2" , "title":"خرید خودرو" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/a469bd11155ddaa9fb60a2f560ea8546312c3224_1740999767.png" },
-        {"id":"3" , "title":"فروش‌ویژه طلای‌فیزیکی" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/af555782fd731859e3cf6f5dd0267d609f4ea3d5_1746610190.jpg" },
-        {"id":"4" , "title":"آیفون برنده شو" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/186b97f78a910cbd9cd7be24a63eeefeb377f073_1749556720.png" },
-        {"id":"5" , "title":"جهیزیه" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/a1899d0f3fb12081b4e157dec83199ab54eb5d74_1748849018.png" },
-        {"id":"6" , "title":"روز جهانی صنایع دستی" , "img":"http://dkstatics-public.digikala.com/digikala-bellatrix/1edd979da4b21bee62d66612b88bc8fb5de62da0_1749383436.png" },
-        {"id":"7" , "title":"تخفیف موبایل کارکرده" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/cc90a533986d6672b68f1f38c8683ef94d74c497_1727699529.png" },
-        {"id":"8" , "title":"1=3" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/c13bd207cfaf3009e063e010dc4234eef96b1d13_1632518044.png" },
-        {"id":"9" , "title":"حراج میان فصل" , "img":"https://dkstatics-public.digikala.com/digikala-bellatrix/e547fdd3fa07eabc63be4e3989f07fbe24995aa0_1749290661.jpg" }
-    ],
-    "DiscountProduct":[
-        {"id":"1" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"2" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"3" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"4" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"5" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"6" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"7" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"8" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"},
-        {"id":"9" , "title":"گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت" , "img":"https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" , "discount":"10" , "count":"10" , "price":"1000000" , "body":"This is a description"}
-    ],
-    "BannerOne":[
-        {"id":"1" , "img":"https://dkstatics-public.digikala.com/digikala-adservice-banners/93fb8ac79eadb3878f703c8e506db69275374b3c_1749648799.jpg?x-oss-process=image/quality,q_95/format,webp"},
-        {"id":"2" , "img":"https://dkstatics-public.digikala.com/digikala-adservice-banners/f70da287099a22737b5f64e61c22b781ff944a7b_1748439803.jpg?x-oss-process=image/quality,q_95/format,webp"},
-        {"id":"3" , "img":"https://dkstatics-public.digikala.com/digikala-adservice-banners/c5feaa88e9f7dd7aed4e760b19efde0e91e50542_1749278161.jpg?x-oss-process=image/quality,q_95/format,webp"},
-        {"id":"4" , "img":"https://dkstatics-public.digikala.com/digikala-adservice-banners/5254fda66b0619ea9f7e0710a2065fe2e414c1e9_1749974571.jpg?x-oss-process=image/quality,q_95/format,webp"}
-    ],
-    "blogs":[
-        {"id":"1" , "title":"طرز تهیه میلک‌شیک انبه؛ به روش یک باریستای حرفه‌ای" , "img":"https://www.digikala.com/mag/wp-content/uploads/2025/06/mango-milkshake-recipe-1.jpg" , "body":"هوا کم‌کم گرم‌تر شده و دوباره فصل انبه فرا رسیده است؛ میوه‌ای خوش‌عطر و شیرین که طعمش با هیچ میوه‌ی دیگری قابل مقایسه نیست. چند روز پیش چند عدد انبه‌ی رسیده خریدم و با خودم فکر کردم چه چیزی بهتر از یک میلک ‌شیک خنک می‌تواند هم تشنگی را برطرف کند و هم انرژی را به بدن بازگرداند؟ ترکیب انبه‌ی تازه با شیر و بستنی یک نوشیدنی خوش‌طعم به همراه دارد که خوردن آن در بعدازظهرهای گرم یک تجربه‌ی به ظاهر ساده اما لذت‌بخش است. اگر شما هم دوست دارید در خانه میلک ‌شیک انبه درست کنید، در این مقاله طرز تهیه‌ی آن را برایتان خواهم گفت. " , "author":"الهام زمانی" , "date":"۲۱ خرداد ۱۴۰۴ | ۱۳:۴۴" , "tags":"نوشیدنی"},
-        {"id":"2" , "title":"هوش مصنوعی Eleven V3؛ انقلابی در تبدیل متن به گفتار فارسی" , "img":"https://www.digikala.com/mag/wp-content/uploads/2025/06/elevenlabs_v3mai-finalllll22-min.jpg" , "body":"در دهه گذشته، هوش مصنوعی پیشرفت‌های چشمگیری داشته است؛ به ویژه در زمینه تولید صدای مصنوعی و خواندن متن‌ها به زبان طبیعی و انسانی. شرکت الون‌لبز (ElevenLabs) که یکی از پیشگامان در حوزه فناوری صوتی هوش مصنوعی است، سومین نسخه اصلی خود را با نام Eleven V3 روانه بازار کرده؛ نسخه‌ای که جهش عظیمی در توانمندی‌های تولید صدا به شمار می‌آید. Eleven V3 با واقع‌گرایی بی‌نظیرش، پشتیبانی گسترده‌اش از زبان‌های مختلف دنیا و امکانات شخصی‌سازی‌شده جذاب، نقطه عطفی در طبیعی‌تر شدن هوش مصنوعی صوتی است. یکی از مهم‌ترین ویژگی‌های این نسخه، پشتیبانی دقیق و توانمند آن از زبان فارسی است؛ موضوعی که آن را به ابزاری ارزشمند برای فارسی‌زبانان و تولیدکنندگان محتوای ایرانی تبدیل کرده است." , "author":"آزاده باقری" , "date":"۲۱ خرداد ۱۴۰۴ | ۰۹:۰۵" , "tags":"هوش مصنوعی و رباتیک"},
-        {"id":"3" , "title":"بهترین مارک پنکه تمام استیل ایرانی و خارجی" , "img":"https://www.digikala.com/mag/wp-content/uploads/2025/06/71OBtoBKx9L._AC_UF10001000_QL80_.jpg" , "body":"اگر دنبال بهترین مارک پنکه تمام استیل می‌گردید، تنها به دنبال یک وسیله ساده برای خنک کردن نباشید. مهم است که دستگاهی مقاوم، با کیفیت ساخت خوب و ظاهر مناسب انتخاب کنید که برای استفاده روزمره جوابگو باشد. در این مطلب به بررسی بهترین پنکه تمام استیل ایرانی و خارجی پرداخته‌ایم تا به شما کمک کنیم انتخاب بهتری داشته باشید." , "author":"سینا درخشانی" , "date":"۲۱ خرداد ۱۴۰۴ | ۰۹:۰۴" , "tags":"گرمای هوا"},
-        {"id":"4" , "title":"بهترین یو پی اس برای دوربین مداربسته؛ معرفی ۵ مدل برتر" , "img":"https://www.digikala.com/mag/wp-content/uploads/2025/06/BEST-UPS-FOR-CAMERA.jpg" , "body":"قطع برق هر روز و اگر خوش ‌شانس باشیم، یک روز در میان اتفاق می‌افتد. این اتفاق فی‌نفسه نباید مشکلات حاد امنیتی ایجاد کند اما وقتی دوربین‌ مداربسته داشته باشید، پای امنیت هم وسط می‌آید. دوربین‌ها هم‌زمان با برق خاموش می‌شوند و هیچ بنی بشری نمی‌فهمد در قطعی برق چه اتفاق افتاده است. نگران نباشید چرا که UPS برای چنین مواقعی اختراع شده است. در ادامه به معرفی بهترین دستگاه یو پی اس برای دوربین مداربسته می‌پردازیم." , "author":"زینب احمدی" , "date":"۲۰ خرداد ۱۴۰۴ | ۰۸:۰۰" , "tags":"دوربین"}
-    ]
+  "banners": [
+    {
+      "id": "1",
+      "banner-header": "https://dkstatics-public.digikala.com/digikala-adservice-banners/906c1b7650a22cbebbc4936d9e8a771879afe480_1748767403.jpg?x-oss-process=image/quality,q_95/format,webp"
+    }
+  ],
+  "Category": [
+    {
+      "id": "1",
+      "title": "موبایل",
+      "svg": "svg"
+    },
+    {
+      "id": "2",
+      "title": "لپ تاپ",
+      "svg": "svg"
+    },
+    {
+      "id": "3",
+      "title": "کالای دیجیتال",
+      "svg": "svg"
+    },
+    {
+      "id": "4",
+      "title": "خانه و آشپزخانه",
+      "svg": "svg"
+    },
+    {
+      "id": "5",
+      "title": "لوازم خانگی برقی",
+      "svg": "svg"
+    }
+  ],
+  "ListCategory": [
+    {
+      "id": "1",
+      "title": "خرید‌ طلای دیجیتال",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png"
+    },
+    {
+      "id": "2",
+      "title": "خرید خودرو",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/a469bd11155ddaa9fb60a2f560ea8546312c3224_1740999767.png"
+    },
+    {
+      "id": "3",
+      "title": "فروش‌ویژه طلای‌فیزیکی",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/af555782fd731859e3cf6f5dd0267d609f4ea3d5_1746610190.jpg"
+    },
+    {
+      "id": "4",
+      "title": "آیفون برنده شو",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/186b97f78a910cbd9cd7be24a63eeefeb377f073_1749556720.png"
+    },
+    {
+      "id": "5",
+      "title": "جهیزیه",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/a1899d0f3fb12081b4e157dec83199ab54eb5d74_1748849018.png"
+    },
+    {
+      "id": "6",
+      "title": "روز جهانی صنایع دستی",
+      "img": "http://dkstatics-public.digikala.com/digikala-bellatrix/1edd979da4b21bee62d66612b88bc8fb5de62da0_1749383436.png"
+    },
+    {
+      "id": "7",
+      "title": "تخفیف موبایل کارکرده",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/cc90a533986d6672b68f1f38c8683ef94d74c497_1727699529.png"
+    },
+    {
+      "id": "8",
+      "title": "1=3",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/c13bd207cfaf3009e063e010dc4234eef96b1d13_1632518044.png"
+    },
+    {
+      "id": "9",
+      "title": "حراج میان فصل",
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/e547fdd3fa07eabc63be4e3989f07fbe24995aa0_1749290661.jpg"
+    }
+  ],
+  "DiscountProduct": [
+    {
+      "id": "1",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    },
+    {
+      "id": "2",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    },
+    {
+      "id": "3",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    },
+    {
+      "id": "4",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    },
+    {
+      "id": "5",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    },
+    {
+      "id": "6",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    },
+    {
+      "id": "7",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    },
+    {
+      "id": "8",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/96004dc7ae87d9d51608a67e3a8f2b5e40b24f96_1741550429.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "discount": "10",
+      "count": "10",
+      "price": "1000000",
+      "body": "This is a description"
+    }
+  ],
+  "BannerOne": [
+    {
+      "id": "1",
+      "img": "https://dkstatics-public.digikala.com/digikala-adservice-banners/93fb8ac79eadb3878f703c8e506db69275374b3c_1749648799.jpg?x-oss-process=image/quality,q_95/format,webp"
+    },
+    {
+      "id": "2",
+      "img": "https://dkstatics-public.digikala.com/digikala-adservice-banners/f70da287099a22737b5f64e61c22b781ff944a7b_1748439803.jpg?x-oss-process=image/quality,q_95/format,webp"
+    },
+    {
+      "id": "3",
+      "img": "https://dkstatics-public.digikala.com/digikala-adservice-banners/c5feaa88e9f7dd7aed4e760b19efde0e91e50542_1749278161.jpg?x-oss-process=image/quality,q_95/format,webp"
+    },
+    {
+      "id": "4",
+      "img": "https://dkstatics-public.digikala.com/digikala-adservice-banners/5254fda66b0619ea9f7e0710a2065fe2e414c1e9_1749974571.jpg?x-oss-process=image/quality,q_95/format,webp"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "طرز تهیه میلک‌شیک انبه؛ به روش یک باریستای حرفه‌ای",
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2025/06/mango-milkshake-recipe-1.jpg",
+      "body": "هوا کم‌کم گرم‌تر شده و دوباره فصل انبه فرا رسیده است؛ میوه‌ای خوش‌عطر و شیرین که طعمش با هیچ میوه‌ی دیگری قابل مقایسه نیست. چند روز پیش چند عدد انبه‌ی رسیده خریدم و با خودم فکر کردم چه چیزی بهتر از یک میلک ‌شیک خنک می‌تواند هم تشنگی را برطرف کند و هم انرژی را به بدن بازگرداند؟ ترکیب انبه‌ی تازه با شیر و بستنی یک نوشیدنی خوش‌طعم به همراه دارد که خوردن آن در بعدازظهرهای گرم یک تجربه‌ی به ظاهر ساده اما لذت‌بخش است. اگر شما هم دوست دارید در خانه میلک ‌شیک انبه درست کنید، در این مقاله طرز تهیه‌ی آن را برایتان خواهم گفت. ",
+      "author": "الهام زمانی",
+      "date": "۲۱ خرداد ۱۴۰۴ | ۱۳:۴۴",
+      "tags": "نوشیدنی"
+    },
+    {
+      "id": "2",
+      "title": "هوش مصنوعی Eleven V3؛ انقلابی در تبدیل متن به گفتار فارسی",
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2025/06/elevenlabs_v3mai-finalllll22-min.jpg",
+      "body": "در دهه گذشته، هوش مصنوعی پیشرفت‌های چشمگیری داشته است؛ به ویژه در زمینه تولید صدای مصنوعی و خواندن متن‌ها به زبان طبیعی و انسانی. شرکت الون‌لبز (ElevenLabs) که یکی از پیشگامان در حوزه فناوری صوتی هوش مصنوعی است، سومین نسخه اصلی خود را با نام Eleven V3 روانه بازار کرده؛ نسخه‌ای که جهش عظیمی در توانمندی‌های تولید صدا به شمار می‌آید. Eleven V3 با واقع‌گرایی بی‌نظیرش، پشتیبانی گسترده‌اش از زبان‌های مختلف دنیا و امکانات شخصی‌سازی‌شده جذاب، نقطه عطفی در طبیعی‌تر شدن هوش مصنوعی صوتی است. یکی از مهم‌ترین ویژگی‌های این نسخه، پشتیبانی دقیق و توانمند آن از زبان فارسی است؛ موضوعی که آن را به ابزاری ارزشمند برای فارسی‌زبانان و تولیدکنندگان محتوای ایرانی تبدیل کرده است.",
+      "author": "آزاده باقری",
+      "date": "۲۱ خرداد ۱۴۰۴ | ۰۹:۰۵",
+      "tags": "هوش مصنوعی و رباتیک"
+    },
+    {
+      "id": "3",
+      "title": "بهترین مارک پنکه تمام استیل ایرانی و خارجی",
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2025/06/71OBtoBKx9L._AC_UF10001000_QL80_.jpg",
+      "body": "اگر دنبال بهترین مارک پنکه تمام استیل می‌گردید، تنها به دنبال یک وسیله ساده برای خنک کردن نباشید. مهم است که دستگاهی مقاوم، با کیفیت ساخت خوب و ظاهر مناسب انتخاب کنید که برای استفاده روزمره جوابگو باشد. در این مطلب به بررسی بهترین پنکه تمام استیل ایرانی و خارجی پرداخته‌ایم تا به شما کمک کنیم انتخاب بهتری داشته باشید.",
+      "author": "سینا درخشانی",
+      "date": "۲۱ خرداد ۱۴۰۴ | ۰۹:۰۴",
+      "tags": "گرمای هوا"
+    },
+    {
+      "id": "4",
+      "title": "بهترین یو پی اس برای دوربین مداربسته؛ معرفی ۵ مدل برتر",
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2025/06/BEST-UPS-FOR-CAMERA.jpg",
+      "body": "قطع برق هر روز و اگر خوش ‌شانس باشیم، یک روز در میان اتفاق می‌افتد. این اتفاق فی‌نفسه نباید مشکلات حاد امنیتی ایجاد کند اما وقتی دوربین‌ مداربسته داشته باشید، پای امنیت هم وسط می‌آید. دوربین‌ها هم‌زمان با برق خاموش می‌شوند و هیچ بنی بشری نمی‌فهمد در قطعی برق چه اتفاق افتاده است. نگران نباشید چرا که UPS برای چنین مواقعی اختراع شده است. در ادامه به معرفی بهترین دستگاه یو پی اس برای دوربین مداربسته می‌پردازیم.",
+      "author": "زینب احمدی",
+      "date": "۲۰ خرداد ۱۴۰۴ | ۰۸:۰۰",
+      "tags": "دوربین"
+    }
+  ],
+  "users": [
+    {
+      "id": "1750687600619",
+      "email": "a@a.com",
+      "password": "1234",
+      "confirmPassword": "1234"
+    },
+    {
+      "id": "1750865353160",
+      "email": "q@q.com",
+      "password": "$2b$10$uWLwk0gV2LyGi2Epz3OKOO0xoPi7s6KJvGyP7qrtYiYMAONfVog5m",
+      "confirmPassword": "$2b$10$xq8Nzp7FSihl9zeBsgJc9OX.cyn9rSssjS5Qb/wZBTUL3r65vmpA."
+    }
+  ]
 }

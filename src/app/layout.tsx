@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { DigikalaContextProvider } from "@/components/context/DigikalaContext";
-
+import "react-toastify/dist/ReactToastify.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,12 +13,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
       <body>
-        <DigikalaContextProvider>
-         {children}
-        </DigikalaContextProvider>
+          <DigikalaContextProvider>{children}</DigikalaContextProvider>
       </body>
     </html>
   );
